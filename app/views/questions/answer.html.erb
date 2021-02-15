@@ -1,6 +1,24 @@
-<%= params[:question] %>
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title></title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="question style">
+        <%= params[:question] %>
+      </div>
+        <p class="no-style">- You</p>
+      <div class="answer style">
+        <%= @answer %>
+      </div>
+        <p class="no-style">- The answerer</p>
+      <div class="ask-new">
+         <%= link_to "Ask new question", "/ask" %>
+      </div>
+    </div>
 
-<%= @answer %>
-
+  </body>
+  </html>
 
 

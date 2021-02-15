@@ -1,3 +1,55 @@
 // Place all the styles related to the answer controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+ $green:#5ec878;
+ $blue: #81d8d0;
+ $pink: #bca3cd;
+ body {
+   background-image: url("https://images.unsplash.com/photo-1470219556762-1771e7f9427d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMTgwOTN8MHwxfHNlYXJjaHwyfHxidWlsZGluZ3xlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=1080");
+   background-size: cover;
+   background-color: $blue;
+   background-blend-mode: lighten;
+
+    // Using this variable
+ }
+
+.main-container{
+  text-align: center;
+  width: 25%;
+  margin: 0 auto;
+  padding: 250px;
+}
+
+ .style{
+  margin: auto;
+  padding: 10px;
+  font-family: Helvetica;
+  font-size: 20px;
+  border: 2px solid;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  margin-top: 25px;
+ }
+
+.ask-new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  padding: 20px;
+  width: 90%;
+  text-align:center;
+  border: 2px solid;
+  border-radius: 15px;
+  background-color: $pink;
+  margin-top: 30px;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+.no-style{
+  font-weight: light;
+  padding: 5px;
+  font-family: Helvetica;
+
+}
